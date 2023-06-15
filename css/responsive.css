@@ -1,0 +1,66 @@
+@media screen and (max-width:700px) {
+
+    /* Header Responsive Start */
+
+    .__logo img{
+        padding-top: 20px;
+    }
+
+    .__navbar .__links ul li {
+        display: block;
+    }
+
+    .__navbar .__links ul{
+        padding: 30px;
+    }
+
+    .__navbar .__links {
+        position: absolute;
+        background-color: #f44336;
+        width: 200px;
+        height: 100vh;
+        top: 0;
+        right: -250px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .__navbar i{
+        display: block;
+        margin: 10px;
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .__content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /* Header Responsive End */
+    
+    /* Section Courses Responsive Start */
+
+    .__courses .__row{
+        flex-direction: column;
+    }
+    /* Section Courses Responsive End */
+
+    /* Section Camppus Responsive Start */
+    .__campus .__row{
+        flex-direction: column;
+    }
+    /* Section Camppus Responsive End */
+
+    /* Section Facilities Responsive Start */
+    .__facilities .__row{
+        flex-direction: column;
+    }
+    /* Section Facilities Responsive Start */
+
+    /* Section Testimonials Responsive Start */
+    .__testimonials .__row{
+        flex-direction: column;
+    }
+    /* Section Testimonials Responsive End */
+}
